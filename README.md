@@ -9,3 +9,7 @@
 3. **Use of Sets**  [[code]](https://github.com/ShahPranav1094-Courses/STL-CPP/blob/master/Sets.cpp)
 
 4. **Use of Unordered_map**  [[code]](https://github.com/ShahPranav1094-Courses/STL-CPP/blob/master/Unordered_Map.cpp)
+
+5. **Use of Unique Pointers**  [[code]](https://github.com/ShahPranav1094-Courses/STL-CPP/blob/master/Unique_ptr.cpp)
+
+6. **Use of Shared Pointers**  [[code]](https://github.com/ShahPranav1094-Courses/STL-CPP/blob/master/Shared_ptr.cpp)
