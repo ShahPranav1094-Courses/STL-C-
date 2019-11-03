@@ -42,6 +42,22 @@ int main()
 
 	foo(m);
 
+	//Creating a map by passing comparator operator to sort in reverese order
+	map<int, string, greater<int>> p;
+
+	// Inserting elements in to the map
+	p[1] = "one";  // Here operator [] returns reference of string i.e string&
+	p[2] = "two";
+	p[4] = "four";
+	p[3] = "three";
+
+	cout << endl << "Printing all the keys along with their values" << endl;
+
+	// Iterating over a map
+	map<int, string>::const_iterator it; // here we can use map<t1,t2>::iterator as well.
+	for (it = p.cbegin(); it != p.cend(); ++it)
+		cout << "(" << it->first << ", " << it->second << ")" << endl;
+
 	system("pause");
 	return 0;
 }
@@ -57,5 +73,11 @@ Printing all the keys along with their values
 
 Retrieve key 3 using find method
 (3, three)
+
+Printing all the keys along with their values
+(4, four)
+(3, three)
+(2, two)
+(1, one)
 
 */
